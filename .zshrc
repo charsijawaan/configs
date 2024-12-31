@@ -1,3 +1,9 @@
+# Oh My Zsh
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+plugins=(git nvm zsh-autosuggestions)
+source $ZSH/oh-my-zsh.sh
+
 # postgres
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
@@ -10,17 +16,9 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
-# react-native
-# 11 for outtwig
-# 17 for everything else
-# export JAVA_HOME=$(/usr/libexec/java_home -v 17)
-# export ANDROID_HOME=$HOME/Library/Android/sdk
-# export PATH=$PATH:$ANDROID_HOME/emulator
-# export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-
 #aliases
 alias c="open $1 -a \"Cursor\""
+alias tsloc="cloc . --include-lang=TypeScript --exclude-dir=node_modules"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
