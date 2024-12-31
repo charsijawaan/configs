@@ -1,0 +1,60 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineHeight": 28,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.codeLens": true,
+  "editor.stickyScroll.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.commandCenter": true,
+  "workbench.colorTheme": "poimandres",
+  "workbench.colorCustomizations": {
+    "sideBar.border": "#ffffff10"
+  },
+  "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "left",
+  "workbench.tree.enableStickyScroll": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "svelte.plugin.svelte.compilerWarnings": {
+    "a11y-click-events-have-key-events": "ignore",
+    "a11y-no-static-element-interactions": "ignore"
+  },
+  "svelte.enable-ts-plugin": true,
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+  "workbench.editorAssociations": {
+    "*.sqlite": "default"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never"
+}
