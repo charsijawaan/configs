@@ -18,9 +18,17 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
 #aliases
 alias c="open $1 -a \"Cursor\""
-alias tsloc="cloc . --include-lang=TypeScript --exclude-dir=node_modules"
+alias tsloc="cloc . --include-lang=TypeScript --exclude-dir=node_modules --timeout -1"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# poetry python
+export PATH="$HOME/.local/bin:$PATH"
+
+# android sdk
+export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+
