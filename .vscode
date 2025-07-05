@@ -73,5 +73,7 @@
   },
   "editor.autoImport": false,
   "editor.autoImportOnPaste": false,
-  "workbench.colorTheme": "poimandres-noitalics",
+  "workbench.colorTheme": "poimandres",
+  "window.titleBarStyle": "custom",
+  "sftp.downloadWhenOpenInRemoteExplorer": true
 }
